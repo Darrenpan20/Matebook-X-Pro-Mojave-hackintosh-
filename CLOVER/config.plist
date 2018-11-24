@@ -426,7 +426,7 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
-				<key>Comment</key>
+				<key>#Comment</key>
 				<string>0x591b0000, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
 				<key>Disabled</key>
 				<false/>
