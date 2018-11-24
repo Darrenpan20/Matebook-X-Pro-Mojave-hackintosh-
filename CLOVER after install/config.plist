@@ -261,6 +261,64 @@
 				/////w==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject "name" as (data)"#display" to disable graphics drivers on AMD</string>
+				<key>Device</key>
+				<string>ATI</string>
+				<key>Key</key>
+				<string>name</string>
+				<key>Value</key>
+				<data>
+				I2Rpc3BsYXkA
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject "IOName" as "#display" to disable graphics drivers on AMD</string>
+				<key>Device</key>
+				<string>ATI</string>
+				<key>Key</key>
+				<string>IOName</string>
+				<key>Value</key>
+				<string>#display</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject bogus class-code to prevent graphics drivers loading for AMD</string>
+				<key>Device</key>
+				<string>ATI</string>
+				<key>Key</key>
+				<string>class-code</string>
+				<key>Value</key>
+				<data>
+				/////w==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject bogus vendor-id to prevent graphics drivers loading for AMD</string>
+				<key>Device</key>
+				<string>ATI</string>
+				<key>Key</key>
+				<string>vendor-id</string>
+				<key>Value</key>
+				<data>
+				//8AAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Inject bogus device-id to prevent graphics drivers loading for AMD</string>
+				<key>Device</key>
+				<string>ATI</string>
+				<key>Key</key>
+				<string>device-id</string>
+				<key>Value</key>
+				<data>
+				//8AAA==
+				</data>
+			</dict>
 		</array>
 		<key>Audio</key>
 		<dict>
@@ -532,15 +590,15 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
-				<key>Comment</key>
-				<string>CFL patch for MateBook</string>
-				<key>Find</key>
+				<key>#Comment</key>
+				<string>CFL patch for MateBooks (wtf is this shit)</string>
+				<key>#Find</key>
 				<data>
 				SP8FpUYHAIuWwCUAAIqO
 				</data>
-				<key>Name</key>
+				<key>#Name</key>
 				<string>AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
+				<key>#Replace</key>
 				<data>
 				uAQAAACJhrwlAAAxwF3D
 				</data>
@@ -595,13 +653,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BoardSerialNumber</key>
-		<string>Fill with your own</string>
+		<string>None</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>Fill with your own</string>
+		<string>None</string>
 		<key>SmUUID</key>
-		<string>Fill with your own</string>
+		<string>None</string>
 		<key>Trust</key>
 		<true/>
 	</dict>
