@@ -590,20 +590,6 @@
 		<key>KextsToPatch</key>
 		<array>
 			<dict>
-				<key>#Comment</key>
-				<string>CFL patch for MateBooks (wtf is this shit)</string>
-				<key>#Find</key>
-				<data>
-				SP8FpUYHAIuWwCUAAIqO
-				</data>
-				<key>#Name</key>
-				<string>AppleIntelCFLGraphicsFramebuffer</string>
-				<key>#Replace</key>
-				<data>
-				uAQAAACJhrwlAAAxwF3D
-				</data>
-			</dict>
-			<dict>
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
 				<key>Disabled</key>
