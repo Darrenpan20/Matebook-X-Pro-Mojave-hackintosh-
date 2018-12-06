@@ -6,5 +6,9 @@ EFI mounter is to Mount the EFI.
 Kext Utility is used to install kexts to system/library/extension. While most of the kexts should be in the EFI parition /EFI/CLOVER/KEXTS/OTHERS, the AppleCFLgraphics kext needs to be installed to SLE. 
 
 ## Also, if you really want to, you can help me out with a small donation..Thanks!
-![Preview](https://github.com/Darrenpan20/Matebook-X-Pro-Mojave-hackintosh-/blob/master/Paypal%20QR.png)
+| Paypal | 
+| ------------- | 
+| ![Preview](https://github.com/Darrenpan20/Matebook-X-Pro-Mojave-hackintosh-/blob/master/Paypal%20QR.png) |
+
+
    
