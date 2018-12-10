@@ -9,6 +9,8 @@ Kext Utility is used to install kexts to system/library/extension. While most of
 | Paypal | 
 | ------------- | 
 | ![Preview](https://github.com/Darrenpan20/Matebook-X-Pro-Mojave-hackintosh-/blob/master/paypal.jpg) |
+| or |
+| https://paypal.me/DarrenPan |
 
 
    
